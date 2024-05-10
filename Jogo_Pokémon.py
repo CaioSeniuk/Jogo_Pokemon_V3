@@ -84,7 +84,7 @@ while True:
     if len(pokedex) == 7:
         os.system("cls")
         print('\n',('-'*30), "FIM DE JOGO",('-'*30))
-        print(f"\nParabéns, você capturou todos os pokémons!\n\n" + "\nPokedéx: {pokedex}")
+        print(f"\nParabéns, você capturou todos os pokémons!\n\n" + f"\nPokedéx: {pokedex}")
         break
 
     #O PROGRAMA ENCERRARÁ SE AS POKEBOLAS ACABAREM
