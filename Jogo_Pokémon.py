@@ -79,6 +79,7 @@ introducao()
 nome = input("\n\nQual o seu nome?\n-> ")
 pokemon_ganho(nome)
 
+
 while True:
     #O PROGRAMA ENCERRARÁ QUANDO O JOGADOR CAPTURAR TODOS OS POKÉMONS
     if len(pokedex) == 7:
